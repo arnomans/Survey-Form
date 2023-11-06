@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arno Mans">
+    <meta name="description" content="HTML5 Survey form to collect client information">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to improve our platform</p>
+
+    <form id="survey-form">
+        <label for="name">Name</label>
+        <input id="name" type="text" required placeholder="Enter your name" />
+
+        <label for="email">Email</label>
+        <input id="email" type="email" required placeholder="Enter your email" />
+
+        <label for="age">Age (Optional)</label>
+        <input id="number" type="number" min="18" max="75" placeholder="Age" />
+    </form>
+</body>
+</html>
