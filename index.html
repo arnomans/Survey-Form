@@ -6,7 +6,7 @@
     <meta name="author" content="Arno Mans">
     <meta name="description" content="HTML5 Survey form to collect client information">
     <title>Survey Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1 id="title">Survey Form</h1>
@@ -36,7 +36,22 @@
         <label><input name="recommend" type="radio" />Maybe</label>
 
         <label><input name="recommend" type="radio" />No</label>
+
+        <p>Which aspects would you prefer to be improved</p>
+        <label><input type="checkbox" name="improvement" value="user-interface" />User Interface</label>
+
+        <label><input type="checkbox" name="improvement" value="interactivity" />Interactivity</label>
         
+        <label><input type="checkbox" name="improvement" value="design-aspects" />Design Aspects</label>
+        
+        <label><input type="checkbox" name="improvement" value="functionality" />Functionality</label>
+
+        <label><input type="checkbox" name="improvement" value="user-interface" />Animations</label>
+
+        <label><input type="checkbox" name="improvement" value="user-interface" />Other</label>
+
+        <p>Please leave us your comments or suggestions</p>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
     </form>
 </body>
 </html>
