@@ -9,51 +9,53 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Thank you for taking the time to improve our platform</p>
+    <div class="container">
+        <h1 class="heading" id="title">Survey Form</h1>
+        <p class="secondary-heading" id="description">Thank you for taking the time to improve our platform</p>
 
-    <form id="survey-form">
-        <label for="name" id="name-label">Name</label>
-        <input id="name" type="text" required placeholder="Enter your name" />
+        <form id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <input id="name" type="text" required placeholder="Enter your name" />
 
-        <label for="email" id="email-label">Email</label>
-        <input id="email" type="email" required placeholder="Enter your email" />
+            <label for="email" id="email-label">Email</label>
+            <input id="email" type="email" required placeholder="Enter your email" />
 
-        <label for="age" id="number-label">Age (Optional)</label>
-        <input id="number" type="number" min="18" max="75" placeholder="Age" />
+            <label for="age" id="number-label">Age (Optional)</label>
+            <input id="number" type="number" min="18" max="75" placeholder="Age" />
 
-        <label for="role">Please select your role</label>
-        <select id="dropdown" placeholder="Select your role">
-            <option value="student">Student</option>
-            <option value="fullTimeJob">Full Time Job</option>
-            <option value="learner">Learner</option>
-            <option value="student">Other</option>
-        </select>
+            <label for="role">Please select your role</label>
+            <select id="dropdown" placeholder="Select your role">
+                <option value="student">Student</option>
+                <option value="fullTimeJob">Full Time Job</option>
+                <option value="learner">Learner</option>
+                <option value="student">Other</option>
+            </select>
 
-        <p>Would you recommend our app to others?</p>
-        <label><input name="recommend" type="radio" checked />Definitely</label>
+            <p>Would you recommend our app to others?</p>
+            <label><input name="recommend" type="radio" checked />Definitely</label>
 
-        <label><input name="recommend" type="radio" />Maybe</label>
+            <label><input name="recommend" type="radio" />Maybe</label>
 
-        <label><input name="recommend" type="radio" />No</label>
+            <label><input name="recommend" type="radio" />No</label>
 
-        <p>Which aspects would you prefer to be improved</p>
-        <label><input type="checkbox" name="improvement" value="user-interface" />User Interface</label>
+            <p>Which aspects would you prefer to be improved</p>
+            <label><input type="checkbox" name="improvement" value="user-interface" />User Interface</label>
 
-        <label><input type="checkbox" name="improvement" value="interactivity" />Interactivity</label>
-        
-        <label><input type="checkbox" name="improvement" value="design-aspects" />Design Aspects</label>
-        
-        <label><input type="checkbox" name="improvement" value="functionality" />Functionality</label>
+            <label><input type="checkbox" name="improvement" value="interactivity" />Interactivity</label>
+            
+            <label><input type="checkbox" name="improvement" value="design-aspects" />Design Aspects</label>
+            
+            <label><input type="checkbox" name="improvement" value="functionality" />Functionality</label>
 
-        <label><input type="checkbox" name="improvement" value="user-interface" />Animations</label>
+            <label><input type="checkbox" name="improvement" value="user-interface" />Animations</label>
 
-        <label><input type="checkbox" name="improvement" value="user-interface" />Other</label>
+            <label><input type="checkbox" name="improvement" value="user-interface" />Other</label>
 
-        <p>Please leave us your comments or suggestions</p>
-        <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+            <p>Please leave us your comments or suggestions</p>
+            <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
 
-        <button type="submit" id="submit">Submit</button>
-    </form>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
