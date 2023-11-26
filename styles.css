@@ -3,17 +3,22 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("");
+    background-image: url("https://www.dropbox.com/scl/fi/run0t6sewvjvdu0tku74w/background.jpg?rlkey=kwdm6ubqiayckfm0z18j77bi4&raw=1");
     font-family: Roboto;
+    padding-bottom: 40px;
+    padding-top: 1px;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    color: #fff;
 }
 
 .container {
     width: 70%;
     margin: auto;
-    background-color:rgb(45, 168, 240);
+    background-color:rgba(24, 138, 204, 0.9);
     padding: 20px;
     margin-top: 8%;
     padding-top: 10px;
+    border-radius: 8px;
 }
 
 .heading, .secondary-heading {
