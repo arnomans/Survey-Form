@@ -15,7 +15,7 @@ body {
     width: 70%;
     margin: auto;
     background-color:rgba(24, 138, 204, 0.9);
-    padding: 20px;
+    padding: 40px;
     margin-top: 8%;
     padding-top: 10px;
     border-radius: 8px;
@@ -28,4 +28,16 @@ body {
 label {
     display: block;
     margin: 0.5rem 0;
+}
+
+.text-input {
+    width: 95%;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.text-input:active {
+    border: 0px;
 }
