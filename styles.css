@@ -59,6 +59,7 @@ textarea {
     font-family: Roboto;
     height: 50px;
     margin-bottom: 20px;
+    border: none;
 }
 
 textarea:focus {
@@ -67,5 +68,18 @@ textarea:focus {
 }
 
 button {
-    
+    background-color:rgb(13, 75, 110);
+    border: none;
+    padding: 10px;
+    color: #fff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+    background-color:rgb(14, 86, 128)
 }
