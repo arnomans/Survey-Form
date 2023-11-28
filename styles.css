@@ -38,6 +38,12 @@ label {
     margin-bottom: 20px;
 }
 
-.text-input:active {
-    border: 0px;
+.text-input:focus {
+    outline: none;
+}
+
+.select-input {
+    width: 100%;
+    box-sizing: border-box;
+    color: gray;
 }
