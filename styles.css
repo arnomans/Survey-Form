@@ -47,3 +47,25 @@ label {
     box-sizing: border-box;
     color: gray;
 }
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+textarea {
+    padding: 8px;
+    width: 95%;
+    border-radius: 5px;
+    font-family: Roboto;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+textarea:focus {
+    outline: none;
+    border: none;
+}
+
+button {
+    
+}

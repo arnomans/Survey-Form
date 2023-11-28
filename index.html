@@ -14,6 +14,7 @@
         <p class="secondary-heading" id="description">Thank you for taking the time to improve our platform</p>
 
         <form id="survey-form">
+            <div class="form-group">
             <label for="name" id="name-label">Name</label>
             <input class="text-input" id="name" type="text" required placeholder="Enter your name" />
 
@@ -30,14 +31,18 @@
                 <option class="dropdown" value="learner">Learner</option>
                 <option class="dropdown" value="student">Other</option>
             </select>
+        </div>
 
+        <div class="form-group">
             <p>Would you recommend our app to others?</p>
             <label><input name="recommend" type="radio" checked />Definitely</label>
 
             <label><input name="recommend" type="radio" />Maybe</label>
 
             <label><input name="recommend" type="radio" />No</label>
+        </div>
 
+        <div class="form-group">
             <p>Which aspects would you prefer to be improved</p>
             <label><input type="checkbox" name="improvement" value="user-interface" />User Interface</label>
 
@@ -50,11 +55,14 @@
             <label><input type="checkbox" name="improvement" value="user-interface" />Animations</label>
 
             <label><input type="checkbox" name="improvement" value="user-interface" />Other</label>
+        </div>
 
+        <div class="form-group">
             <p>Please leave us your comments or suggestions</p>
             <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
 
             <button type="submit" id="submit">Submit</button>
+        </div>
         </form>
     </div>
 </body>
