@@ -83,3 +83,37 @@ button {
 button:hover {
     background-color:rgb(14, 86, 128)
 }
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 60%;
+    }
+
+    .select-input {
+        width: 97.5%;
+    }
+}
+
+@media only screen and (min-width: 1360px) {
+    .container {
+        width: 50%;
+    }
+
+    .select-input {
+        width: 97.5%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .container {
+        width: 40%;
+    }
+
+    .select-input {
+        width: 97%;
+    }
+
+    button {
+        width: 30%;
+    }
+}
