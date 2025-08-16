@@ -9,6 +9,8 @@ body {
     padding-top: 1px;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     color: #fff;
+    background-repeat: none;
+    background-size: cover;
 }
 
 .container {
